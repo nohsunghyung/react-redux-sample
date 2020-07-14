@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
-import Counter from './components/Counter'
+import React, { Component } from "react";
+import Counter from "./components/Counter";
 
 export class App extends Component {
   render() {
     return (
       <div>
-        <Counter/>
+        <div>테스트</div>
+        <Counter />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
