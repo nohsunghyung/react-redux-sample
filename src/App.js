@@ -5,7 +5,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <div>테ㄹ트</div>
+        <div>test2입니다</div>
         <Counter />
       </div>
     );
