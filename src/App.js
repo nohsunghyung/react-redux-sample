@@ -5,7 +5,8 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <div>이건은 마스터입니다</div>
+        <div>test2입니다</div>
+        <p>test2 한번더 테스트</p>
         <Counter />
       </div>
     );
