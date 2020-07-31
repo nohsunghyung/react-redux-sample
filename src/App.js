@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import Counter from "./components/Counter";
+import { observer, inject } from "mobx-react";
 
-export class App extends Component {
+@inject("userStore")
+@observer
+class App extends Component {
   render() {
     return (
       <div>
         <div>테스트</div>
-        <Counter />
       </div>
     );
   }
