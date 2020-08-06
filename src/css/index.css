@@ -4,6 +4,12 @@
   background-color: #000;
 }
 
+/* 테스트2 */
+.test2 {
+  word-wrap: none;
+}
+/* 테스트2 */
+
 .box4 {
   width: 2222px;
   height: 100px;
