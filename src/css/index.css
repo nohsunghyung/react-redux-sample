@@ -3,12 +3,12 @@
   height: 500px;
   background-color: #000;
 }
-/* 데브변경 */
-.test2 {
-  width: 44px;
-  height: 44px;
+/* 마스터변경 */
+.test1 {
+  width: 20px;
+  height: 20px;
 }
-/* 데브변경 */
+/* 마스터변경 */
 
 .box4 {
   width: 2222px;
