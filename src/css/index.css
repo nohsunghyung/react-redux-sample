@@ -4,8 +4,14 @@
   background-color: #000;
 }
 
+.box1 {
+  width: 200px;
+  height: 200px;
+}
+
 .box2 {
   width: 300px;
+  border: 1px solid blue;
   height: 200px;
   border: 1px solid skyblue;
   background: #333;
