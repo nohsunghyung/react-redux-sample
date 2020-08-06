@@ -1,16 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import App from "./App";
-
 import { Provider } from "mobx-react";
-import UserStore from "./store/UserStore";
+import App from "./App";
+import RootStore from "./store/RootStore";
+import { HashRouter as Router } from "react-router-dom";
 
-const userStore = new UserStore();
+const rootStore = new RootStore();
 
 ReactDOM.render(
-  <Provider store={userStore}>
-    <App />
+  <Provider {...rootStore}>
+    <Router>
+      <App />
+    </Router>
   </Provider>,
   document.getElementById("root")
 );
