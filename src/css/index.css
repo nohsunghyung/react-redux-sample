@@ -6,6 +6,7 @@
 
 .box2 {
   width: 300px;
+  border: 1px solid green;
   height: 200px;
   background: #333;
 }
