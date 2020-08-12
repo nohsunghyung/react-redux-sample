@@ -5,22 +5,13 @@ import Control from "./components/Control";
 import Test from "./components/Test";
 import "./css/index.css";
 
-@inject("UserStore")
-@observer
-class App extends Component {
-  componentDidMount() {}
-  render() {
-    return (
-      <div>
-        <div className="box">박스</div>
-        <div className="box2">박스2</div>
-        <Switch>
-          <Route exact path="/control" component={Control}></Route>
-          <Route path="/test" component={Test}></Route>
-        </Switch>
-      </div>
-    );
-  }
+function App({ component: Component, ...ddd }) {
+  console.log(Component, ddd);
+  return (
+    <div>
+      <Component></Component>
+    </div>
+  );
 }
 
 export default App;
