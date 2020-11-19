@@ -1,7 +1,7 @@
 import React from "react";
 
 function App() {
-  return <div>노루 테스트</div>;
+  return <div>노루 테스트222222</div>;
 }
 
 export default App;
